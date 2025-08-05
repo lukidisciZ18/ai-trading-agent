@@ -123,24 +123,25 @@ try:
                 # Technical Analysis (if we have price data)
                 if not hist.empty and len(hist) >= 26:  # Need at least 26 days for MACD
                     import talib
+                    import numpy as np
                     
-                    # Calculate technical indicators
-                    close_prices = hist['Close'].values
-                    volume_data = hist['Volume'].values
+                    # Calculate technical indicators - Convert to numpy float64 arrays
+                    close_prices = hist['Close'].values.astype(np.float64)
+                    volume_data = hist['Volume'].values.astype(np.float64)
                     
                     # RSI (14 period)
                     rsi = talib.RSI(close_prices, timeperiod=14)
-                    current_rsi = rsi[-1] if not pd.isna(rsi[-1]) else None
+                    current_rsi = rsi[-1] if not np.isnan(rsi[-1]) else None
                     
                     # MACD (12,26,9)
                     macd, macdsignal, macdhist = talib.MACD(close_prices, fastperiod=12, slowperiod=26, signalperiod=9)
-                    current_macd = macd[-1] if not pd.isna(macd[-1]) else None
-                    current_macd_signal = macdsignal[-1] if not pd.isna(macdsignal[-1]) else None
-                    current_macd_hist = macdhist[-1] if not pd.isna(macdhist[-1]) else None
+                    current_macd = macd[-1] if not np.isnan(macd[-1]) else None
+                    current_macd_signal = macdsignal[-1] if not np.isnan(macdsignal[-1]) else None
+                    current_macd_hist = macdhist[-1] if not np.isnan(macdhist[-1]) else None
                     
                     # Volume MA (20 period)
                     volume_ma = talib.SMA(volume_data, timeperiod=20)
-                    current_volume_ma = volume_ma[-1] if not pd.isna(volume_ma[-1]) else None
+                    current_volume_ma = volume_ma[-1] if not np.isnan(volume_ma[-1]) else None
                     current_volume = volume_data[-1]
                     volume_surge = (current_volume / current_volume_ma) if current_volume_ma else None
                     
