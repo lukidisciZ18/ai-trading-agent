@@ -1,0 +1,1 @@
+from .catalyst import catalyst_score  # re-export for convenience

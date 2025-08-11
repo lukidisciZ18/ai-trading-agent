@@ -1,0 +1,48 @@
+{
+  "min_price": 1.5,
+  "min_10d_dollar_volume": 2000000,
+  "earnings_window_days": 2,
+  "biotech_catalyst_days": 14,
+  "risk_pct": 0.005,
+  "atr_k": 1.5,
+  "sector_exclude": [],
+  "sectors_biotech": ["Biotechnology", "Biotech", "Health Care", "Healthcare"],
+  "account_equity": 10000,
+
+  "brokerage": {
+    "broker": "alpaca",
+    "paper": true
+  },
+
+  "risk_params": {
+    "max_risk_pct_per_trade": 0.005,
+    "stop_loss_pct": 0.08,
+    "take_profit_pct": 0.20,
+    "trail_pct": 0.08,
+    "max_drawdown_pct": 0.2
+  },
+
+  "universe_guards": {
+    "min_avg_volume": 200000,
+    "price_min": 1.5,
+    "price_max": 100.0,
+    "float_min": null,
+    "market_cap_max": null
+  },
+
+  "ops": {
+    "rate_limit_budgets": {
+      "alpha_vantage_per_min": 5,
+      "newsapi_per_min": 20
+    },
+    "sentiment_cost_cap_per_day": 100,
+    "exchange": ["NYSE", "NASDAQ"],
+    "holiday_calendar": "XNYS"
+  },
+
+  "alerts": {
+    "slack_webhook_url": null,
+    "telegram_bot_token": null,
+    "telegram_chat_id": null
+  }
+}

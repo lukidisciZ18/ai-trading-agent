@@ -1,0 +1,867 @@
+symbol,timestamp,text,source
+TQQQ,2025-06-28 19:31:37+00:00,"Simple easy TQQQ strategy using the 200 SMA from QQQ with a few modifications In my testing TQQQ is an absolute monster of an ETF that performs extremely well even from a buy and hold standpoint over long periods of time, its largest drawback is the massive drawdown exposure that it faces which can be easily sidestepped with this strategy.
+
+This strategy is meant to basically abuse TQQQ's insane outperformance while augmenting the typical 200SMA strategy in a way that uses all of its strengths while avoiding getting whipsawed in sideways markets.
+
+**The strategy BUYS TQQQ when QQQ price crosses 5% over the 200SMA and then SELLS TQQQ when QQQ price drops 3% below the 200SMA. Between trades I'll be parking my entire account in SGOV.**
+
+So maximizing profit while minimizing risk.
+
+You use the strategy based off of QQQ and then make the trades on TQQQ when it tells you to BUY/SELL.
+
+Here are some reasons why I will be using this strategy:
+
+* Simple emotionless BUY and SELL signals where I don't care who the president is, what is happening in the world, who is bombing who, who the leadership team is, no attachment to individual companies and diversified across the NASDAQ.
+* \~85% win percentage and when it does lose the loses are nothing compared to the wins and after a loss you're basically set up for a massive win in the next trade.
+* Max drawdown of around 40% when using TQQQ
+* You benefit massively when the market is doing well and when there is a recession you basically sit in SGOV for a year and then are set up for a monster recovery with a clear easy BUY signal. So as long as you're patient you win regardless of what happens.
+* The trades are often very long term resulting in you taking advantage of Long Term Capital Gains tax advantage which could mean saving up to 15-20% in taxes.
+* With only a few trades you can spend time doing other stuff and don't have to track or pay attention to anything that is happening.
+* Simple, easy, and massively profitable.",reddit:stocks
+TQQQ,2025-04-27 01:16:28+00:00,"1/2 leverage on QQQ- does it exist? a. There are QQQ, QLT, TQQQ with leverage on the multiplier side. Is there an ETF with fraction effect?
+
+b. I am concerned that the current mismanagement can cause a big recession and want to park my savings in 1/2 the QQQ. I can put 1/2 QQQ and 1/2 cash but that requires re-balancing and monitoring. Is there a better way or an existing product? 
+
+c. If I use equivalent LEAP option on QQQ instead of buying 1/2, I will have more cash that way- is that a better alternative? Fraction adjustment will be difficult though as QQQ is expensive.",reddit:stocks
+TQQQ,2025-04-10 06:31:41+00:00,"How to hedge portfolio amid this market I have been following the news but non-active so far. But I feel, maybe I should be doing something.
+
+Some of the ideas came to my mind:
+
+1 .Protective puts: Buying protective puts for SPY to protect my existing portfolio. The prices are quite good after yesterday's market. But I feel this drama will continue for at least the next 4-5 months. In that case, it's pretty expensive to buy puts. So doesn't seem that good idea.
+
+2 Swing trades using TQQQ/UPRO: This is another idea. Maybe on dip, I switch some of my SPY/QQQ to TQQQ/UPRO and sell on each recovery. 
+
+Suggestions?",reddit:stocks
+TQQQ,2025-04-04 17:50:21+00:00,C2027 on TQQQ? If you have money will you speculate on 2 year LEAP on TQQQ?,reddit:stocks
+TQQQ,2025-04-03 15:15:22+00:00,"Selling TQQQ puts, am i going to be cooked. TQQQ
+I am selling puts starting from 40 strike and below for Jan’ 26. I am willing to buy tqqq of it goes in the price range of 30-35 or below.
+
+Since i can’t predict till what price it will go down. Could that be a good strategy. Thoughts please 
+Planning to sell at least 8-10 contracts.",reddit:stocks
+TQQQ,2025-08-01 09:21:11+00:00,"Do you also enjoy avoiding big drops more than taking positive trades? I now prefer avoiding big drawdowns over chasing positive trades. It's so satisfying to focus on solid risk management and avoid letting one bad trade cancel out ten good ones.
+
+TQQQ will open almost 6% down since my last exit!
+
+Do you also have this feeling?
+
+",reddit:wallstreetbets
+TQQQ,2025-07-21 08:03:40+00:00,"Study Claims Day Trading the 5-min ORB on QQQ Beats Buy-and-Hold — Thoughts? I came across an interesting SSRN paper titled *“Can Day Trading Really Be Profitable?”* by Carlo Zarattini and Andrew Aziz ([https://papers.ssrn.com/sol3/papers.cfm?abstract\_id=4416622](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4416622)).
+
+The study analyzes the profitability of a simple **5-minute Opening Range Breakout (ORB)** strategy on the **QQQ ETF** from **2016 to 2023**. Some key takeaways:
+
+* Without leverage, the strategy allegedly produced **33% annualized alpha** net of commissions, outperforming passive QQQ investing.
+* With **3× leverage (TQQQ)**, it claims a **total return of 1,484%**, compared to **169% for passive QQQ** over the same period.
+* It uses tight stop-losses and takes trades only in the direction of the initial move.
+
+While it sounds impressive on paper, I’m curious how realistic this is when accounting for **slippage**, **fill quality**, **reset mechanics of leveraged ETFs**, and **real trading costs**. Also, it’s based on one ticker during a very bullish time frame.
+
+Has anyone tried replicating this or trading similar ORB strategies live?
+
+Would love to hear:
+
+* Anyone's experience with intraday ORB strategies?
+* Thoughts on the study's assumptions (e.g., daily compounding with TQQQ)?
+* Do you think this kind of edge is sustainable, or just backtest overfit?
+
+\*I personally got into CFD trading on Nasdaq and noticed very good trading results with looking at the market direction around 5min after opening and just ride with the sentiment until volumes decrease or major changes in the direction are happening. ",reddit:wallstreetbets
+TQQQ,2025-07-10 17:26:49+00:00,SOXL Creaming Followup to my previous post [https://www.reddit.com/r/wallstreetbets/comments/1l3fe7r/im\_such\_a\_cxm\_slxt\_for\_soxl/](https://www.reddit.com/r/wallstreetbets/comments/1l3fe7r/im_such_a_cxm_slxt_for_soxl/),reddit:wallstreetbets
+TQQQ,2025-06-05 19:45:37+00:00,"Switching from options to shares changed everything I was trading options quite a bit and learning the markets since Covid started. Never had enough money to do sizable shares trades but worked hard and saved up and now that I’ve switched from options to only shares of tqqq and sqqq, it’s like going from expert level to easy level difficulty. I have never had consistent profits like this since I started trading. I’m currently 21 so hoping to build this up a lot more in the next few years. ",reddit:wallstreetbets
+TQQQ,2025-05-26 16:24:40+00:00,Here s how my gambling went last week. How s yours going? ,reddit:wallstreetbets
+TQQQ,2025-08-10 01:44:48+00:00,"Which one is better: TQQQ (200 SMA strategy) vs. QLD (buy and hold) Which one is better: TQQQ (200 SMA strategy) vs. QLD (buy and hold)  
+
+
+The gist of the question is - 3x LETF using 200 SMA strategy of the 1x underlying ETF vs. 2x LETF just buy and hold. This can be applied to TQQQ vs. QLD, FNGU vs. FNGG, and so on.
+
+  
+To the extent if time horizon matters to your analysis, what is the threshold (years) that would change your view? Would like to get feedback from this community.
+
+",reddit:investing
+TQQQ,2025-07-31 08:00:53+00:00,"Diversified LETF strategy beats the market in all scenarios? I’ve been testing with LETF strategies since early this year and it appears that a 200SMA switching strategy between leverage and unleveraged portfolios rebalanced once a month far exceeds the performance of buy-and-hold index investing. The risk-adjusted-return is greater despite having greater volatility.
+
+Max drawdowns including the 2 massive bear markets (dotcom bubble and 2008 GFC) are similar to 100% VOO.
+
+Any holes in this strategy involving TQQQ and leveraged gold? Keep in mind this already factors in the common misconception that volatility decay eats into your capital. It’s canceled out by exponential compounding gains during bull runs and exponential compounding losses during bear markets (which prevent your capital going to zero or negative unlike margin).
+
+Results with dotcom bubble and 2008 GFC starting 1995:
+
+https://testfol.io/tactical?s=2Qt4zrwoJ0m
+
+https://testfol.io/?s=9giBG7lgiNi
+
+Results with 2009+ bull run only:
+
+https://testfol.io/tactical?s=aguEmneYZA3
+
+https://testfol.io/?s=4iUSSawio8i
+
+Additional info: LETFs are entered above the 200SMA on QQQ. Unleveraged portfolio is entered below the 200SMA.
+
+QQQSIM?L=3 represents TQQQ. “SIM” extends the simulated backtest date range, “L=3” applies triple leverage, volatility decay, and interest rates.",reddit:investing
+TQQQ,2025-07-29 04:05:50+00:00,"TQQQ 200SMA (+5%/-3%) Strategy follow up with additional stats and enhancements (Blended with Supertrend) Follow up to my 200SMA (+5%/-3%) strategy - [https://www.reddit.com/r/investing/comments/1lmux19/simple\_easy\_tqqq\_strategy\_using\_the\_200\_sma\_from/](https://www.reddit.com/r/investing/comments/1lmux19/simple_easy_tqqq_strategy_using_the_200_sma_from/)
+
+Wanted to follow up and show more info and get other opinions on the strategy to try and get it in the best shape possible, thank you everyone who comments and provides additional perspectives
+
+Below are the actual trades with all relevant information to show exactly what you would of experienced trading TQQQ from its inception using this strategy
+
+Using just this strategy honestly still looks really good but it does have one major weakness which is vulnerability to outsized violent downward moves like you can see here with the COVID-19 Crash in trade number 7 which has a max drawdown of 56%
+
+I did some testing into seeing if it makes sense to exit the trade if price action floats too high over the 200SMA but that isn't really what the issue is, it's all about the speed
+
+When price is above the 200 SMA the 200 line slowly rises which slowly adds downside protection for you but in a flash crash the 200 line doesn't have time to rise and provide as much protection and this opens you up to massive drawdowns as you can see here of \~50%. (4 out of the 9 trades have drawdowns of \~40%+ that almost always happen right before you exit the trade from PEAK right before the SELL)
+
+|TRADE|BUY|SELL|Entry|Exit|Top|MaxDD|P/L|
+|:-|:-|:-|:-|:-|:-|:-|:-|
+|1|Feb 12 2010|Jun 30 2010|0.40|0.38|0.635|\-40%|\-5%|
+|2|Sep 21 2010|Aug 05 2011|0.54|0.71|0.922|\-23%|31%|
+|3|Jan 19 2012|Nov 09 2012|0.83|0.94|1.31|\-28%|13%|
+|4|Apr 11 2013|Aug 24 2015|1.26|2.99|5.10|\-41%|137%|
+|5|Oct 26 2015|Jan 08 2016|4.70|3.81|5.02|\-24%|\-19%|
+|6|Jul 25 2016|Oct 25 2018|4.51|12.23|17.40|\-30%|171%|
+|7|Mar 22 2019|Mar 13 2020|14.11|12.53|28.29|\-56%|\-11%|
+|8|Apr 15 2020|Jan 24 2022|14.61|51.64|85.35|\-39%|253%|
+|9|Feb 03 2023|Mar 11 2025|24.31|59.06|92.00|\-36%|143%|
+
+|Metric|Value|
+|:-|:-|
+|Average Trade P/L|79.39%|
+|Average Win|134.04%|
+|Average Loss|\-11.75%|
+
+My thinking is how to lower downside risk while still having massive returns. One solution that I thought of is basically using this main 200 SMA strategy for MACRO MOMENTUM to be either in the market or out of the market
+
+Then layer on my other Supertrend strategy as a MICRO MOMENTUM indicator and basically going TQQQ when Supertrend gives a BUY signal and then deleveraging into QLD when Supertrend gives a SELL signal
+
+This essentially still provides you with a high amount of profit performance and keeps you IN and LEVERAGED while in the 200SMA(5%/-3%) BUY zone while also giving you a lot of downside protection by deleveraging early and taking the foot off the gas when things look questionable. Below is what the drawdown numbers look like when using just TQQQ as in the above stats and then some examples of deleveraging into QLD and QQQ
+
+\*Supertrend on average engages around 35% of the way from peak to the 200SMA SELL exit so 35% of the drawdown you'll take the full hit in TQQQ and then the rest of the 65% you'll be slightly shielded if you deleverage\*
+
+|TRADE|TQQQ Only|TQQQ → QLD|TQQQ → QQQ|
+|:-|:-|:-|:-|
+|1|\-40.00%|\-30.67%|\-21.33%|
+|2|\-23.00%|\-17.63%|\-12.29%|
+|3|\-28.00%|\-21.47%|\-14.80%|
+|4|\-41.00%|\-31.47%|\-21.80%|
+|5|\-24.00%|\-18.29%|\-12.44%|
+|6|\-30.00%|\-22.67%|\-15.33%|
+|7|\-56.00%|\-42.27%|\-29.87%|
+|8|\-39.00%|\-29.87%|\-20.60%|
+|9|\-36.00%|\-27.47%|\-18.80%|
+
+I don't actually know how to backtest this complex of a strategy but if anyone has the knowledge or time I would be really great info to have. I just don't know how much profit changes if you employ deleveraging, but I would imagine the safety it provides especially once your investment account gets to a certain size makes sense. This system lets you still capture nearly all the wild massive upswings fully exposed to TQQQ while having QLD/QQQ step in and block truly devastating losses.
+
+Here is the code for the my latest cleaned up QQQ custom Supertrend Strategy to layer along side the 200SMA Strat:
+
+    //@version=5
+    strategy(""Supertrend Long-Only Strategy for QQQ"", overlay=true, default_qty_type=strategy.percent_of_equity, default_qty_value=100)
+    
+    // === Inputs ===
+    atrPeriod    = input.int(32, ""ATR Period"")
+    factor       = input.float(4.35, ""ATR Multiplier"", step=0.02)
+    changeATR    = input.bool(true, ""Change ATR Calculation Method?"")
+    showsignals  = input.bool(false, ""Show Buy/Sell Signals?"")
+    highlighting = input.bool(true, ""Highlighter On/Off?"")
+    barcoloring  = input.bool(true, ""Bar Coloring On/Off?"")
+    
+    // === Date Range Filter ===
+    FromMonth = input.int(1, ""From Month"", minval = 1, maxval = 12)
+    FromDay   = input.int(1, ""From Day"", minval = 1, maxval = 31)
+    FromYear  = input.int(1995, ""From Year"", minval = 999)
+    ToMonth   = input.int(1, ""To Month"", minval = 1, maxval = 12)
+    ToDay     = input.int(1, ""To Day"", minval = 1, maxval = 31)
+    ToYear    = input.int(2050, ""To Year"", minval = 999)
+    start     = timestamp(FromYear, FromMonth, FromDay, 00, 00)
+    finish    = timestamp(ToYear, ToMonth, ToDay, 23, 59)
+    window    = (time >= start and time <= finish)
+    
+    // === ATR Calculation ===
+    atrAlt = ta.sma(ta.tr, atrPeriod)
+    atr    = changeATR ? ta.atr(atrPeriod) : atrAlt
+    
+    // === Supertrend Logic ===
+    src  = close
+    up   = src - factor * atr
+    up1  = nz(up[1], up)
+    up   := close[1] > up1 ? math.max(up, up1) : up
+    
+    dn   = src + factor * atr
+    dn1  = nz(dn[1], dn)
+    dn   := close[1] < dn1 ? math.min(dn, dn1) : dn
+    
+    var trend = 1
+    trend := nz(trend[1], 1)
+    trend := trend == -1 and close > dn1 ? 1 : trend == 1 and close < up1 ? -1 : trend
+    
+    // === Entry/Exit Conditions ===
+    buySignal  = trend == 1 and trend[1] == -1
+    sellSignal = trend == -1 and trend[1] == 1
+    
+    longCondition = buySignal and window
+    exitCondition = sellSignal and window
+    
+    if (longCondition)
+        strategy.entry(""BUY"", strategy.long)
+    if (exitCondition)
+        strategy.close(""BUY"")
+    
+    // === Supertrend Plots ===
+    upPlot = plot(trend == 1 ? up : na, title=""Up Trend"", style=plot.style_linebr, linewidth=2, color=color.green)
+    dnPlot = plot(trend == -1 ? dn : na, title=""Down Trend"", style=plot.style_linebr, linewidth=2, color=color.red)
+    
+    // === Entry/Exit Markers ===
+    
+    
+    plotshape(buySignal and showsignals ? up : na, title=""Buy"",  text=""Buy"",  location=location.absolute, style=shape.labelup,   size=size.tiny, color=color.green, textcolor=color.white)
+    plotshape(sellSignal and showsignals ? dn : na, title=""Sell"", text=""Sell"", location=location.absolute, style=shape.labeldown, size=size.tiny, color=color.red,   textcolor=color.white)
+    
+    // === Highlighter Fills ===
+    mPlot = plot(ohlc4, title=""Mid"", style=plot.style_circles, linewidth=0)
+    longFillColor  = highlighting and trend == 1 ? color.new(color.green, 80) : na
+    shortFillColor = highlighting and trend == -1 ? color.new(color.red, 80)   : na
+    fill(mPlot, upPlot, title=""UpTrend Highlighter"", color=longFillColor)
+    fill(mPlot, dnPlot, title=""DownTrend Highlighter"", color=shortFillColor)
+    
+    // === Bar Coloring ===
+    buyBars  = ta.barssince(buySignal)
+    sellBars = ta.barssince(sellSignal)
+    barcol   = buyBars[1] < sellBars[1] ? color.green : buyBars[1] > sellBars[1] ? color.red : na
+    barcolor(barcoloring ? barcol : na)",reddit:investing
+TQQQ,2025-06-28 19:15:59+00:00,"Simple easy TQQQ strategy using the 200 SMA from QQQ with a few modifications In my testing TQQQ is an absolute monster of an ETF that performs extremely well even from a buy and hold standpoint over long periods of time, its largest drawback is the massive drawdown exposure that it faces which can be easily sidestepped with this strategy.
+
+This strategy is meant to basically abuse TQQQ's insane outperformance while augmenting the typical 200SMA strategy in a way that uses all of its strengths while avoiding getting whipsawed in sideways markets.
+
+**The strategy BUYS when price crosses 5% over the 200SMA and then SELLS when price drops 3% below the 200SMA. Between trades I'll be parking my entire account in SGOV.**
+
+So maximizing profit while minimizing risk.
+
+You use the strategy based off of QQQ and then make the trades on TQQQ when it tells you to BUY/SELL.
+
+Here are some reasons why I will be using this strategy:
+
+* Simple emotionless BUY and SELL signals where I don't care who the president is, what is happening in the world, who is bombing who, who the leadership team is, no attachment to individual companies and diversified across the NASDAQ.
+* \~85% win percentage and when it does lose the loses are nothing compared to the wins and after a loss you're basically set up for a massive win in the next trade.
+* Max drawdown of around 40% when using TQQQ
+* You benefit massively when the market is doing well and when there is a recession you basically sit in SGOV for a year and then are set up for a monster recovery with a clear easy BUY signal. So as long as you're patient you win regardless of what happens.
+* The trades are often very long term resulting in you taking advantage of Long Term Capital Gains tax advantage which could mean saving up to 15-20% in taxes.
+* With only a few trades you can spend time doing other stuff and don't have to track or pay attention to anything that is happening.
+* Simple, easy, and massively profitable.
+
+Below are some stats from the strategy running from 2001 with a script you can copy and paste into TradingView to make the same chart I'll be using.  
+
+
+    //@version=5
+    strategy(""200 SMA +/- 5% Entry, -3% Exit Strategy (Since 2001)"", overlay=true, default_qty_type=strategy.percent_of_equity, default_qty_value=100)
+    
+    // === Inputs ===
+    smaLength = input.int(200, title=""SMA Period"", minval=1)
+    entryThreshold = input.float(0.05, title=""Entry Threshold (%)"", step=0.01)
+    exitThreshold = input.float(0.03, title=""Exit Threshold (%)"", step=0.01)
+    startYear = 2001
+    startMonth = 1
+    startDay = 1
+    
+    // === Time filter ===
+    startTime = timestamp(startYear, startMonth, startDay, 0, 0)
+    isAfterStart = time >= startTime
+    
+    // === Calculations ===
+    sma200 = ta.sma(close, smaLength)
+    upperThreshold = sma200 * (1 + entryThreshold)
+    lowerThreshold = sma200 * (1 - exitThreshold)
+    
+    // === Strategy Logic ===
+    enterLong = close > upperThreshold
+    exitLong = close < lowerThreshold
+    
+    // === Trade Execution ===
+    if (isAfterStart)
+        if (enterLong and strategy.position_size == 0)
+            strategy.entry(""Buy"", strategy.long)
+    
+        if (exitLong and strategy.position_size > 0)
+            strategy.close(""Buy"")
+    
+    // === Plotting ===
+    plot(sma200, title=""200 SMA"", color=color.orange)
+    plot(upperThreshold, title=""Entry Threshold (5% Above SMA)"", color=color.green)
+    plot(lowerThreshold, title=""Exit Threshold (3% Below SMA)"", color=color.red)",reddit:investing
+TQQQ,2025-06-17 17:27:00+00:00,"What is the other risks outside of what I've noted for covered calls So bought 500 shares $75 tqqq on margin. Sold 5 $75 calls for 1.50 each. They expire Friday. So other than the stock dropping massively, is there other risk associated with doing this basically forever and collecting the income to offset the margin interest and holding the cash preventing a margin call?",reddit:investing
+TQQQ,2025-08-08 21:00:04+00:00,"QQQ Tops Daily ETF Inflows <p>Here are the daily ETF fund flows for August 7, 2025.</p>",news:Etf.com
+TQQQ,2025-08-07 21:00:04+00:00,"Investors Put $442M Into SGOV <p>Here are the daily ETF fund flows for August 6, 2025.</p>",news:Etf.com
+TQQQ,2025-08-05 16:25:02+00:00,"Don’t Panic on Nasdaq Dips: Leverage Seasonal Trends for Smarter Trades Are you misreading the Nasdaq’s August dip? Seasonal data shows a consistent rally into mid-September, despite early weakness. Rethink your approach with...",news:Barchart.com
+TQQQ,2025-08-01 08:28:53+00:00,"Empirical Financial Services LLC d.b.a. Empirical Wealth Management Makes New $2.46 Million Investment in ProShares UltraPro QQQ (NASDAQ:TQQQ) Empirical Financial Services LLC d.b.a. Empirical Wealth Management bought a new position in shares of ProShares UltraPro QQQ (NASDAQ:TQQQ – Free Report) in the 1st quarter, Holdings Channel reports. The institutional investor bought 42,900 shares of the exch…",news:ETF Daily News
+TQQQ,2025-08-01 08:28:53+00:00,"ProShares UltraPro QQQ (NASDAQ:TQQQ) Shares Purchased by NorthRock Partners LLC NorthRock Partners LLC boosted its position in ProShares UltraPro QQQ (NASDAQ:TQQQ – Free Report) by 8.0% during the first quarter, HoldingsChannel.com reports. The institutional investor owned 8,959 shares of the exchange traded fund’s stock after acquiring …",news:ETF Daily News
+SOXL,2025-05-14 15:27:10+00:00,"Anyone invested in SOXL stocks? Been told by a family in mid April when the SOXL stock was around $7.00 and now it reached 18.70, Anyone knows if I should keep it or pull my money out? From the looks of it, It’s been going well but i’m not an expert. Thank you in advance!  ",reddit:stocks
+SOXL,2025-03-05 14:10:22+00:00,"These are the stocks on my watchlist (03/5) - Trump's Speech Dissect This is a daily watchlist for short-term trading: I might trade all/none of the stocks listed, and even stocks not listed!
+
+I am targeting potentially good candidates for short-term trading; I have no opinion on them as investments.
+
+The potential of the stock moving today is what makes it interesting, everything else is secondary.
+
+Today is mostly related to Trump's speech yesterday. Secretary Lutnick announced yesterday ""Tariffs compromise announcement will likely come tomorrow"", so will be on the lookout for that.
+
+News: [Trump Hails Tariffs as US Economy Barrels Into Trade Wars](https://www.bloomberg.com/news/articles/2025-03-05/trump-to-tout-tariffs-unveil-energy-mineral-projects-in-speech)
+
+**Ticker:** [**NVDA (NVIDIA)**](https://finviz.com/quote.ashx?t=NVDA&p=d)**,** [**AMD (Advanced Micro Devices)**](https://finviz.com/quote.ashx?t=AMD&p=d)**,** [**SMH (Semiconductor ETF)**](https://finviz.com/quote.ashx?t=SMH&p=d)**,** [**SOXL (3x Semiconductor ETF)**](https://finviz.com/quote.ashx?t=SOXL&p=d)
+
+**Catalyst:** Trump has called for an end to the CHIPS Act Subsidy Program (instead preferring tariffs).
+
+**Technicals:** Short biased. Obviously this takes away a lot of investment in semis companies. Extremely negative catalyst but unlikely it will get repealed due to how much bipartisan support it had.
+
+**Catalyst/Sector Context:** The CHIPS and Science Act gave $280B in new funding to boost domestic research/manufacturing of semis in the US, and also aimed to strengthen supply chain resilience against China and widely considered to be a success because it spurred the development/dominance in the semis sector in America.
+
+**Risks:** If this gets repealed, we're likely going to see a pretty large pullback in the semis. Obviously this is dependent on what the tariffs Trump touts will do as well. [I wrote a little more about my take on a different post](https://www.reddit.com/r/stocks/comments/1j437g9/trump_calls_for_end_to_52_billion_chips_act/) but overall more of the same (I think it's a terrible idea).
+
+**Ticker:** [**GM (General Motors)**](https://finviz.com/quote.ashx?t=GM&p=d)**,** [**F (Ford Motor Company)**](https://finviz.com/quote.ashx?t=F&p=d)**,** [**TSLA (Tesla)**](https://finviz.com/quote.ashx?t=TSLA&p=d)
+
+**Catalyst:** The Trump administration is considering granting relief from the recently imposed 25% tariffs on Canadian and Mexican imports for products that comply with the United States-Mexico-Canada Agreement (USMCA).
+
+**Technicals:** We've seen all three stocks (GM especially) make gains due to this announcement, will watch at open for volume.
+
+**Catalyst/Sector Context:** The automotive industry in US/Canada/Mexico involves the most economic/manufacturing cooperation in the USMCA, they're the most obvious beneficiaries of this potential catalyst.
+
+**Risks:** If they don't actually give relief, then will likely pullback- cars are one of the most affected products of tariffs and pretty much every car company has spoken about tariffs on their earnings calls.
+
+**Ticker:** [**IBIT (IBIT)**](https://finviz.com/quote.ashx?t=IBIT&p=d)**,** [**COIN (Coinbase)**](https://finviz.com/quote.ashx?t=COIN&p=d)**,** [**HOOD (Robinhood Markets)**](https://finviz.com/quote.ashx?t=HOOD&p=d)
+
+**Catalyst:** Commerce Secretary Howard Lutnick has indicated that Trump plans to grant the main biggest CC a ""unique status"" within the Bitcoin reserve strategy, which will be unveiled at the White House Crypto Summit on Friday.
+
+**Technicals:** We've seen the underlying spike close to 8-9% since yesterday, watching $90K level. Interested to see how we go prior to the actual summit.
+
+**Catalyst/Sector Context:** Obviously an extremely bullish catalyst, we've bounced strongly off the $80K level recently. I usually trade through the ETFs as needed, and HOOD/Coinbase serve as proxies in case the ETFs aren't liquid or have already moved.
+
+**Risks:** Worth waiting for the catalyst and watching the CC Summit on Friday. I personally see this more of a ""buy on hype"" kind of catalyst, unless there's an announcement of something extremely bullish I'm not sure how much more this will move the needle.
+
+**Ticker:** [**HII (Huntington Ingalls Industries)**](https://finviz.com/quote.ashx?t=HII&p=d)
+
+**Catalyst:** Trump has announced initiatives aimed at strengthening the U.S. shipbuilding industry to counter China's dominance, spoke about the creation of a White House Office of Shipbuilding and the introduction of special tax incentives.
+
+**Technicals:** None that I'm particularly interested in, this is a longer-term play.
+
+**Catalyst/Sector Context:** China produces over half of the world's merchant vessels, this is more of a play to reduce reliance on foreign-shipping.
+
+**Risks:** There's a chance that this will never happen, Trump tried to create a ""Cybersecurity Department"" in his first term but that was never formally created and we kept those duties spread out between the FBI/DHS/NSA. But we also have the Space Force so... stay tuned.
+
+**Earnings:** [**MRVL**](https://finviz.com/quote.ashx?t=MRVL&p=d), [**VEEV**](https://finviz.com/quote.ashx?t=VEEV&p=d), [**ZS**](https://finviz.com/quote.ashx?t=ZS&p=d), [**MDB**](https://finviz.com/quote.ashx?t=MDB&p=d)",reddit:stocks
+SOXL,2025-01-30 14:20:34+00:00,"These are the stocks on my watchlist (01/30) This is a daily watchlist for short-term trading: I might trade all/none of the stocks listed, and even stocks not listed!
+
+I am targeting potentially good candidates for short-term trading; I have no opinion on them as investments.
+
+The potential of the stock moving today is what makes it interesting, everything else is secondary.
+
+**Today OpenAI may make history. Trying out longer form, more detailed catalyst examinations over the short-form with more tickers.**
+
+**Ticker:** [**META (Meta Inc)**](https://finviz.com/quote.ashx?t=META&p=d)
+
+**Catalyst:** Reported earnings of $8.02 vs $6.68 expected. Revenue of $48.4B vs $47B,but guided revenue short of consensus and didn't provide FY25 revenue outlook (which triggered the reason for the selloff post-earnings after the close).
+
+Their CAPEX announcement was $60-65B vs $52.4B expected, and stated they expected the single largest driver of expesive growth in 2025 as infrastructure costs due to higher OpEX and depreciation.
+
+Also announced plans to grow META's AI team significantly.
+
+**Volume/Market Cap/Technicals:** Earnings move the stock on far less volume but the initial selloff after announcement was worth trading- interested in the $700 level today but not much beyond that.
+
+**Context:** Decent earnings but signals that there is more spending on the horizon- likely that the initial brutal selloff to $606 was from algos just reading the initial eye-popping CAPEX number and selling the company.
+
+**Sector Context:**There is a major next-level breakthrough that OpenAI is expected to release today that has agents performing on the same level as PHDs, Altman is meeting today with US government officials. META is the creator of Llama, which is another open source model compared to OpenAI's closed models.
+
+**Risks:** Deepseek has been the main threat involved, with competitors from China using distillation and other AI techniques to be able to train a far cheaper model that brings up the question of why our large tech firms are spending so much on GPUs. (I'm sure this is news to you /s)
+
+**Related Tickers:** FAANG stocks, SNAP, PINS, etc.
+
+Offhand:  Something worth remembering is that there is a $10B undersea cable that spans over 40K km that they plan to build (unknown what the cable is for), more details coming in 2025. Likely some kind of fiber optic cable.
+
+**Ticker:** [**TSLA (Tesla Inc.)**](https://finviz.com/quote.ashx?t=TSLA&p=d)
+
+**Catalyst:** Reported earnings of $0.73 vs $0.76 expected. Revenue of $25.71B vs $27.23B expected. Most of this revenue miss came from miss in sale of EVs. 
+
+TSLA announced interesting plans to lower the price of EVs in 2025 but also didn't give specific details regarding the production volume targets (as they have in the past), and also announced that there would be a paid robotaxi service in Austin in June. This puts them in competition with Waymo/UBER. Personally I think the vision-only approach is not viable in the long-run but hey, I'm no self-driving PHD. 
+
+CAPEX was ALSO higher as with META due to spending increases from AI training infra costs and battery production capacity.
+
+**Volume/Market Cap/Technicals:** I'm mainly interested in the $375/$400 level, not too interested in going long despite the multi-day slide in price.
+
+**Context:** Main reason for TSLA's selloff was the lack of full-year guidance (it gives the subtext that it's too bad to release publically or it's up in the air). Political statements made by Musk may contribute to future issues for TSLA.
+
+**Sector Context:** Revenue shortfall was caused due to lower-than-expected vehicle deliveries/ increased sale incentives, 496K cars vs 507K exp. China's BYD is rapidly catching up, and the (possible) removal of the US EV tax credit may make EV's more expensive
+
+**Risks:** Mainly geopolitical- if the tariffs on EV vehicles imported to the US gets removed, TSLA will face fiercer competition from BYD. Also Elon Musk.
+
+**Related Tickers:** BYD (but mainly trades in China, TSLA isn't as impacted by AI news.)
+
+
+
+[**NVDA (NVIDIA Corporation) (in addition to ARM/AMD/SMH/SOXL/semiconductor stocks)**](https://finviz.com/quote.ashx?t=NVDA&p=d)
+
+**Catalyst:** The reveal of Deepseek has introduced an AI model that rivals existing solutions but was developed at around $6M. However there's a rumor that Deepseek is actually trained on 50K H100 NVDA gpus.
+
+**Yesterday after the close, there was an announcement Trump officials discussing tightening curbs on Nvidia's China sales.**
+
+**Volume/Market Cap/Technicals:** Overall, there's been a massive selloff since NVDA was $150 at the end of last week. Overall interested again if we hit $116, but low confidence we'll sell off again. 
+
+Currently long.
+
+**Sector Context:** Not much to really say about this beyond NVDA having the most advanced chips that are widespread for training because of the CUDA architecture- most people are doubtful that the TOTAL cost was $6M
+
+US Officials are examining export restrictions but China will likely find a way to bypass them as they have previously.
+
+**Risks:** Mainly geopolitical, again. Obviously it's very difficult to restrict trade to a country that we have no military presence in or surround, and China is economically far more powerful than those we have attempted trade restrictions on in the past.
+
+**Related tickers:** (Mentioned above)
+
+**Earnings today:** AAPL, INTC, V,TEAM",reddit:stocks
+SOXL,2024-09-11 23:18:18+00:00,"Accidentally created wash sale I have been dabbling in LETFs for a bit but never really day traded or played options on it up until recently. I sold covered calls on SOXL, got the shares assigned .. didn't really know about rolling options up until now ended up losing those shares. I day-traded a bit after and long story short now I have a disallowed loss of about 50k. In addition I have a realized gains of about 75k. What does this mean?
+
+Does this mean that if I have an additional profit of upto 50k on SOXL, it would cancel out against the disallowed loss? I.E. my end of the year realized gains would only be 75k (if I don't have additional losses)
+
+Or am I screwed, and any additional profit I might have I would have to pay taxes on them on top of my realized gains of 75K?
+
+Any help here would be appreciated. Thanks",reddit:stocks
+SOXL,2024-08-14 13:25:32+00:00,"These are the stocks on my watchlist (8/14)
+ Hi! I am an ex-prop shop equity trader.  
+This is a daily watchlist for trading: I might trade all/none of the stocks listed, and even stocks not listed! I only hold MAG7/market indices long-term. If you use Old Reddit, click “Show Images” at the top to expand the charts. Any positions stated aren’t recommendations, I’m following subreddit rules to disclose positions.  
+Some stocks I post may be <$500M market cap. These are potentially good candidates to day trade; I have no opinion on them as investments. PLEASE ask specific questions. Questions like “Thoughts on _____?” or “Is ___ a good investment?” will be ignored or I’ll troll you unless you add detail and your own opinion. I will block you if you are a troll.
+
+News: [Housing Costs Drive Most of Monthly Gains in US CPI](https://www.bloomberg.com/news/live-blog/2024-08-14/us-cpi-report-for-july)
+
+- **[K](https://finviz.com/quote.ashx?t=K&p=d)** - Bought by Mars in $36B deal. Acquisition price is $83.50. I don’t normally put in acquisitions but this is huge, and could see regulatory pushback considering how consolidated the industry is.
+- **[DKNG](https://finviz.com/quote.ashx?t=DKNG&p=d)** - Stated that it has decided to not establish the gaming tax surcharge.
+- **[CMG](https://finviz.com/quote.ashx?t=CMG&p=d) / [SBUX](https://finviz.com/quote.ashx?t=SBUX&p=d)** - CEO of CMG becomes new CEO of SBUX, worth watching both stocks to see how the market reacts on the second day. Watching for another small selloff in CMG.
+- **[SMH](https://finviz.com/quote.ashx?t=SMH&p=d)** - Watching the entire semis market because of how strong it has been for the past week.  
+  Other semi-related stocks/ETFs I’m watching: **[AMD](https://finviz.com/quote.ashx?t=AMD&p=d) / [ARM](https://finviz.com/quote.ashx?t=ARM&p=d) / [MU](https://finviz.com/quote.ashx?t=MU&p=d) / [SOXL](https://finviz.com/quote.ashx?t=SOXL&p=d) / [NVDA](https://finviz.com/quote.ashx?t=NVDA&p=d) / [NVDL](https://finviz.com/quote.ashx?t=NVDL&p=d)**. Still long NVDA.
+- **[ASTS](https://finviz.com/quote.ashx?t=ASTS&p=d)** - Earnings today—likely won’t be taking a position in this until earnings are released, but will be cognizant of opportunities to be long/short if we make any massive moves intraday. Biased long towards earnings mainly because the stock reacts explosively even on marginal catalysts, but will wait until after the earnings announcement to make a trade. Small position long.
+
+Earnings: **[CSCO](https://finviz.com/quote.ashx?t=CSCO&p=d), [ASTS](https://finviz.com/quote.ashx?t=ASTS&p=d)**
+",reddit:stocks
+SOXL,2025-07-10 17:26:49+00:00,SOXL Creaming Followup to my previous post [https://www.reddit.com/r/wallstreetbets/comments/1l3fe7r/im\_such\_a\_cxm\_slxt\_for\_soxl/](https://www.reddit.com/r/wallstreetbets/comments/1l3fe7r/im_such_a_cxm_slxt_for_soxl/),reddit:wallstreetbets
+SOXL,2025-07-02 15:39:24+00:00,"$200k+ SOXL Leaps 23M. Dad gave me a 40K loan to invest and after reading the first chapter of the intelligent investor I knew exactly what to do. 
+",reddit:wallstreetbets
+SOXL,2025-06-18 22:14:14+00:00,"Do you guys think I might get rekt on the PMCC strategies I have the following PMCC strategies
+
+#Long positions
+
+- 37 x SOXL 01.16.2026 $25 call 
+- 17 x VRT 15.08.2025 $115 call
+- 6 x RDDT 15.08.2025 $110 call
+- 5 x HIMS 15.08.2025 $60 call
+
+#Short positions 
+
+- 37 x SOXL 03.07.2025 $25 call 
+- 17 x VRT 11.07.2025 $130 call
+- 6 x RDDT 18.07.2025 $170 call
+- 5 x HIMS 18.07.2025 $75 call
+
+Last month I made good profits, but is it time to cover and close all of it. 
+
+",reddit:wallstreetbets
+SOXL,2025-06-04 19:57:47+00:00,I'm such a cxm slxt for soxl ,reddit:wallstreetbets
+SOXL,2025-05-28 01:48:16+00:00,"ANET (NVDA Sympathy Yolo). 96.5 May 30 call My thesis for NVDA earnings is - decent announcement with good forward guidance as sovereign AI becomes more a thing especially in the middle east.  Coupled with some guidance about China as chip restrictions change. With market cap approaching 4T - stock moves will be muted on the upside. I'd say it's a flat to modest move (price target 142$). 
+
+Other plays like SOXL should see lots of gains on general overall positive semiconductor sentiment. I'm also in SOXL long. 
+
+My play is ANET for sympathy. Calls are cheap. Thesis on ANET move is based on a general indicator of continued and expanding data center mega-investment and capital spending which ANET benefits. 
+
+Currently sitting at 30% below 52 week high. ANET chart YTD is basically mirror image of NVDA (but so are lots of stocks so doesn't mean much). At current closing price we're only 4.8% off of break even price.
+
+I'm looking for a 25% move to $115 or a 250k net on a 6k cost basis. 
+
+  
+YOLO
+
+
+
+https://preview.redd.it/3jtoflgvff3f1.png?width=1533&format=png&auto=webp&s=3ad7595fbbf070cfddb0a9c7518e744beaedd572
+
+",reddit:wallstreetbets
+SOXL,2025-07-19 07:16:56+00:00,"How is my portfolio looking? I’ve been trading investing for a couple years, mostly just trading. This is my first time truly buying to hold. I got around 500 invested currently in my account and with 100 in cash to do some risky plays with. I’m leaning to leveraged etfs for the most part due to my low capital size.
+
+I’m holding NVDA, RIOT, MSFT, SPY, SOXL, SPXL, QQQU, GS, JEPQ, SCHW, BITX, TNA, LBRDP, KMI, CVX, VICI, AAPL, and KKR. 
+
+Thinking of adding 30-50 bucks a month to keep my port growing. 
+
+How am i doing?",reddit:investing
+SOXL,2025-06-24 15:20:02+00:00,"Advice for avoiding a wash sale. Defining ""substantially identical"" I have underwater positions in SOXL I want to sell off and declare the losses against my gains on my taxes.
+
+I've also bought positions in AVGO (Broadcom), NVDA (Nvidia), FNGB (ETF of MegaCap tech companies including Nvidia) and TECL (ETF of MidCap-MegaCap tech companies including Nvidia, Broadcom and other semiconductor companies) within the last 31 days
+
+Will any of those stocks/ETFs be considered ""substantially identical"" to SOXL and void my ability to declare my SOXL losses on my taxes?",reddit:investing
+SOXL,2025-05-27 16:00:28+00:00,"Anyone switch from Fidelity to a different brokerage? Why? I've had a Fidelity account for a week and I already want to get the hell out.
+
+Transfers take 2 weeks to clear and I can't make the trades I want--missed out on SOXL 10% boost today because of it.
+
+In 1 week the options builder has twice been inaccessible.
+
+I can't adjust my alerts on the website, which is currently not working for me, so that my wife doesn't see every single trade I make and get anxious for no reason.
+
+ATP is dog water compared to the Think or Swim platform I learned on.
+
+Any former Fidelity users pivot to a different brokerage? Which one, and why?",reddit:investing
+SOXL,2024-02-11 17:36:09+00:00,"Realize SOXL & Crypto gains or keep holding? Throughout all of 2023, I was consistently buying SOXL, allocating roughly 20% of my investment budget to it.  I have a high risk tolerance, but due to its performance, at this point SOXL makes up around 25% of my portfolio. That combined with my crypto holdings is making me consider rebalancing. Currently my portfolio, crypto + equities, looks roughly like the following:
+
+SOXL - $70,600, QQQ  - $61,600, VOO  - $59,000, IWY   - $57,000, XLE   - $6,200, Ethereum - $36,500, Bitcoin - $48,000
+
+My question is how would you proceed here?  Rebalance now in one fell swoop?  Rebalance continuously as FIFO shares reach 1 year (long term capital gains)? Don’t sell anything, just stop buying SOXL / crypto and rebalance through purchasing the other ETFs?
+
+For context, 30M in VHCOL city.  This is all just my brokerage account - my 401k is much lower risk.  ",reddit:investing
+SOXL,2024-02-11 14:35:24+00:00,"Favorite growth and or technology ETF What are Your favorite ETFs on the list for long term growth not swing trading and why. 
+
+What are they as a  percentage of your overall portfolio. 
+
+How long have you been holding. Year ? 
+
+If your ETF is not on the list please specify ticker and why you perfer it over the others. 
+
+QQQM
+VGT
+XLK
+MGK
+VuG
+IYW
+XNTK 
+SMH
+SOXX
+SOXL
+TQQQ
+ARKK
+Other specify",reddit:investing
+SOXL,2025-08-07 21:00:04+00:00,"Investors Put $442M Into SGOV <p>Here are the daily ETF fund flows for August 6, 2025.</p>",news:Etf.com
+SOXL,2025-07-31 22:00:00+00:00,"SPYD Attracts $759M in Assets as Fed Keeps Rates Unchanged - SPYD saw inflows as the Fed held rates steady amid tariff concerns. - SPY and QQQ gained, while IWM and SOXL saw outflows.",news:Etf.com
+SOXL,2025-07-30 22:30:00+00:00,"SPY Gains $2.3B as S 500 Retreats From Record High - SPY led inflows as markets pulled back on China trade concerns. - IVV and VOO gained, while QQQ and IWM saw outflows.",news:Etf.com
+SOXL,2025-07-25 22:00:00+00:00,"ETHA Gains $325M as Ethereum ETF Surges 3.2% in Assets - ETHA led crypto inflows as the S&P 500 hit a record following Alphabet's earnings. - VWO and GLD attracted inflows, while IVV and TQQQ saw outflows.",news:Etf.com
+SOXL,2025-07-23 21:30:00+00:00,"VOO Gains $2.2B as S 500 Posts Another Record Close - VOO led ETF inflows as the S&P 500 hit its 11th record close of 2025. - VO and VTI gained, while SPY and QQQ saw outflows.",news:Etf.com
+LABU,2021-11-20 22:45:40+00:00,"Chart-Traders weekend update for swing traders and investors who want to know where markets are headed (totally TA based) Welcome to the weekend update!
+
+Europe with new Covid restrictions plus inflation worries sent everything other than the NDX100 into sell mode. Everything related to reopening was more or less abandoned.
+
+But let's cut to the chase:
+
+As always there is no way to post charts on reddit/stocks so I will explain what I see! People who follow TA and my weekend updates have a chart program by now and can easily see what I describe. 
+
+NDX100: It all started with the extremely low MACD readings late September and October. I had posted that it was a buying opportunity back then.
+It grinded higher keeping a minimum distance between the 20 day average and prices. Now we are again at the upper Bollinger Bands and I envision prices to climb up along the upper Bollinger Band like last month. Minimum target is still 17000 and now we are only less than 3% away.
+
+Disclaimer: I own QQQ longterm
+
+Outlook short-/medium term: Bullish above 15700 breakout zone.
+
+DJI: Dow Jones had a rougher week. It broke below the previous high at 35600 but there is a cluster at 35500 with more previous highs. MACD still has room to support more downside but it could turn anywhere between the 50 day average and 35500 region without major damage.
+Minimum target 37500.
+
+
+Outlook short-/medium term: Bullish above 35500
+
+
+S&P500: S&P 500 was unable to make new highs mainly because it is a mix between DJI and NDX. The Slow Stoch indicator could potentially form a so called negative divergence if it does not rise to new highs with the S&P500 next week.
+Minimum target 4800.
+
+Outlook short-/medium term: Bullish above 4550
+
+Disclaimer: I own SPY longterm
+
+
+Russell 2000: Small caps were clearly slaughtered because of inflation and Covid fears. Russell is now down 4% from ATH. It broke below the previous high at 2360 but there should be support around the 50 and 200 day average. I bought more URTY at the previous support line at 2360. That line is now irrelevant because it was broken with ease. Next support is 50 and 200 day average. Minimum target 2580 once we found a footing above support. If support breaks minimum targets have to be abandoned.
+
+Disclaimer: I own IWM and URTY
+
+Outlook short-/medium term: Still bullish above 50-/200 day average but MACD in the daily charts would allow a significant downmove if market participants want to (especially during a light Holiday week)
+
+If you are only interested in US indices stop here at your own risk (of losing out on opportunities)!
+
+
+AAXJ: Asia ex Japan also corrected like small caps but closed above the 50 day moving average. Indicators allow for more down but overall I believe Asia is in a huge bottoming phase especially KWEB an ETF for China's internet darlings.
+Minimum target 200 day average.
+
+Disclaimer: I am currently overweight the regular 10% allocation to Asia and China especially BABA and TME.
+
+Outlook short-/medium term: Bullish although choppy because we are in the middle of a long-term bottoming phase
+
+
+FEZ (Eurostoxx): New Covid lockdowns certainly did not help. All week prices tried to stay above the previously broken downtrendline but the MACD just did not give up the overbought situation. At the end of the week the support was given up and now prices can drop to anything between 50, 200 day or previous lows. 
+Minimum target 51.5 if support holds.
+
+Disclaimer: I own FEZ longterm
+
+Outlook: Medium term still bullish but short-term the index has to find footing between the 44.7 region and current prices. Nobody can tell where we will stop.
+
+Speculative:
+
+EWZ (Brazil): Brazil is still in dire straights but like with the Evergrande disaster I suggested that it might be worth looking at investment opportunities.
+
+Well last week all gains were sold off but especially in the 4h chart one can see that the $29 region might hold. There is a good chance of a double bottom. The previous drop below does not really count because it was immediatelly bought.
+Minimum target medium term $32-34.
+
+Extremely dangerous situation.
+
+Disclaimer: 7% of my portfolio are call options on EWZ
+
+Outlook: Possible bottoming phase. Highly speculative.
+
+
+Possible investment opportunity:
+
+JETS ETF: Covid scare and inflation led to another drop in airlines and everything aviation related. Sure if you think that airlines are done and nobody will ever travel again there is no reason to buy.
+
+JETS dropped every month since July to the $21-22 area and bounced 10% every time. At one point it won't just be a 10% bounce but a 20-30% bounce. The $21-22 area almost resembles a quintuple bottom here. In my opinion it is a buy.
+Minimum medium term target $30.
+
+Disclaimer: I own JETS
+
+STOP here if you have no interest in the positioning of my portfolios!
+
+Overall positioning:
+
+Time in the market is key and therefore I suggest to always be 100% invested. However timing the market CAN absolutely be done. I try to beat the benchmark with margin loans, leveraged ETFs and options trading. The maximum leverage at the lows early October was 3. Two weeks ago portfolios were at 1.3 and 1.5 but I bought more again during the recent downmove (especially URTY, FAS and LABU). The goal is to unleverage on the way up with a goal of 1 again when we are closer to a neutral/bearish signal.
+
+Happy to discuss as usual. Just post in comment section.
+
+Happy Trades and Happy Thanksgiving!",reddit:stocks
+LABU,2021-11-06 16:30:55+00:00,"Chart-traders weekend update for swing traders (totally TA based) Welcome to the weekend update!
+
+Another great week (as expected)! We leveraged up at the bottom and have been unloading into the predicted rally. Portfolios are still strongly biased towards a continued upmove but the current leverage was reduced to 1.5/1.6. Meaning a 10% move should make us 15-16% overall (it goes both ways). That's why taking profits is king. Those were the profits taken this week.
+
+
+DD +15% (3 trading days)
+
+QCOM +21.2% (18 trading days)
+
+EXPE +8.3% (5 trading days)
+
+GE +9.4% (34 trading days)
+
+SBUX +4.7% (19 trading days)
+
+Leveraged ETFs:
+
+30% of URTY +33% (now I only own 30% of the initial position)
+
+But let's cut to the chase: Portfolios are up 49 and 40% year to date while the best performing US Index is up 27% (NDX100). An international benchmark mix (60% US) is only up 17.8% because Brazil and Asia were tanking again.
+
+As always there is no way to post charts on reddit/stocks so I will explain what I see!
+
+NDX100: It all started with the extremely low MACD readings late September and October. I had posted that it was a buying opportunity. Obviously laughed at by redditors but I like being attacked and laughed at because that means chances are I am right. Around that time investor sentiment was net negative 4 weeks in a row. Just 1 year after a recession that is a buying opportunity! Anyhow. NDX100 made 14% since the low and broke above the highs from early September. Because many were left behind we went up in a straight line!
+As long as we can stay above the breakout area of 15700 we will continue to go higher. Expect a test of the area around 15700 but the minimum target should be 17000. If we make it in a straight line or not depends on how much FOMO all the bears from September have.
+I am a swing trader so I already took a profit of 15% on TQQQ. The main reason was to deleverage on the way up.
+
+Disclaimer: I own QQQ, FB, Amazon longterm. 
+
+
+Outlook short-/medium term: Bullish above 15700
+
+DJI: Same is true for DJI as for NDX100. Watch the 35500 level. I also realized already a 13.8% profit on UDOW. 
+Minimum target 37250.
+
+Outlook short-/medium term: Bullish above 35500
+
+
+S&P500: Watch 4550 level. Also broke above and confirmed bullish bias. Minimum target 4800.
+
+Outlook short-/medium term: Bullish above 4550
+
+
+Russell 2000: Russell 2000 is my favorite US Index right now and the only index I still own leveraged ETFs on. It had a rough 2021 trading in a trading range for at least 8 months but it finally woke up and it could run at least 10% from here still. This week alone it made 6%. I predicted the Russell to outperform NDX, S&P, DJI until end of year and I still think more money can be made with small caps.
+For deleveraging purpose I had sold another 30% of URTY. Gain was 33%.
+Minimum target 2580 but will likely go much higher.
+
+Disclaimer: I own IWM and URTY plus many individual small cap stocks that were sold off brutally into October.
+
+Outlook short-/medium term: Bullish above 2360 area.
+
+Specialty Indices:
+
+Today I mention one specialty Index that I think has potential
+
+XBI (Biotech):
+Biotech had a rough time for months now but came back big time breaking a months long downtrend. It hit the 200 day average and is in the middle of retesting that broken downtrendline. XBI could be a buy from here.
+
+Disclaimer: I own LABU (leveraged ETF on XBI). Up 14% as of today.
+
+If you are only interested in US investments stop here!
+
+
+International plays.
+
+FEZ: Eurostoxx had a great comeback like the US Indices and also made new highs after months of sideways action. Minimum target is the 51.5 are or FEZ
+
+Disclaimer: I own FEZ and DB
+
+
+China (FXI): China is in the middle of a medium-/longterm bottoming phase. It retraced the recent upmove by a little bit more than 61.8%. It could turn any time here. If we really break down to the 37.5 level again it is definitely a buying opportunity.
+
+Disclaimer: I am currently overweight the regular 10% allocation to Asia
+
+Outlook short-/medium term: Bullish although choppy because we are in the middle of a bottoming phase (only index I think is in a longterm bottoming phase)
+
+
+Speculative:
+
+Brazil: I had mentioned last week that Brazil was in dire straights!
+
+Here is the article again:
+https://finance.yahoo.com/news/markets-reeling-brazil-deficit-fears-005715131.html
+
+I speculated that like with the Evergrande disaster it might be worth looking at trading opportunities here.
+
+Brazil was sold off with high volume 10-21 and a hammer formed with higher volume 10-22. We were in the middle of retracing the 10% upmove last week. Dropped below the 61.8% retracement but made a double bottom at 29. Friday's candle needs to be be confirmed but I think it has potential. I bought more call options around the $29 area.
+
+Extremely dangerous situation.
+
+Disclaimer: 7-9% of my portfolios are call options on EWZ
+
+Outlook: Possible bottoming phase. Highly speculative.
+
+
+
+Overall positioning:
+
+Time in the market is key and therefore I am almost always 100% invested. This way you get the skeptics out of the way and really don't miss out on opportunities.
+
+However timing the market CAN absolutely be done. One can beat the benchmark without ever being out of the market with margin loans, leveraged ETFs and options trading by finding bottoms. My specialty is finding bottoms. The maximum leverage at the lows early October was 3. Now portfolios are at 1.5/1.6 and the goal is to unleverage on the way up to a goal of 1 again when we are closer to a neutral/bearish signal.
+
+There is a good possibility that a huge rally internationally just started but because one never knows for sure we will continue to unload our positions because we are still overleveraged due to the fact that we anticipated the bottom about 1 month ago and loaded up on stocks then.
+
+
+Happy to discuss as usual. Just post in comment section.
+
+Happy Trades and have a great weekend and trading week!
+Go out there and make money with the tip of your finger!
+
+See you next week.
+Chart-trader",reddit:stocks
+LABU,2021-02-03 02:32:12+00:00,"Leveraged ETFs “bull 3x/2x” GUSH, SOXL, LABU Hello, 
+
+Ive been looking into leveraged etfs and found a few that seem decent with decent returns. I understand these are riskier but I’m looking to diversify my portfolio with one of these. 
+
+Current holdings are icln, qcln, tesla, churchill and bb. I have some cash sitting thanks to making some money off those meme stocks last week. 
+
+Any suggestions on good leveraged etfs? What are the pros/ cons? Any good Canadian ones?
+
+Thank you.",reddit:stocks
+LABU,2020-12-14 22:09:11+00:00,"LABU: bubble to burst or long term gold The rate this is rising makes me thing this is going to be short lived, and I am thinking about buying it on the down turn.  I’m teasing out if I am being emotional for almost pulling the trigger when it was 16$.  Rookie here with rookie mistakes... should have taken some advice lol",reddit:stocks
+LABU,2020-06-08 21:32:24+00:00,"Up >10% today and >30% MTD - here's my portfolio I have a day job that has nothing to do with the stock market. I pay attention to it, have always handled my own portfolio and dedicated small amounts of time here and there to building my skills and knowledge over the last 7-8 years. In the last 12 months I've stepped up my efforts and have been beating the market consistently.
+
+I generally invest in three buckets, in order of position size:
+
+1. Alpha - 3x ETFs (long or inverse depending on outlook)
+2. Long term holdings - 1x ETFs and long-term stock holdings
+3. Speculative plays - undiscovered small caps set to explode
+
+Here's my list of holdings in alphabetical order. Listed by position size in the image link in the comments below:
+
+AMP, AMZN, BNKU, BRZU, CARE, COG, CVX, DFEN, ERX, FAS, FMCI, GUSH, IBTX, IBUY, IJS, JETS, LABU, LBJ, MARK, MCK, MFA, MIDU, MSFT, MTG, NAIL, NKLA, NRZ, OPRA, PAGS, PAYC, PYPL, PYR, QQQ, RDFN, RDN, REML, RQI, SCHB, SOXL, SPCB, TQQQ, UDOW, URTY, VRAY, XLE, XLF
+
+I tried posting links to uploaded images to my account and holdings by position size but wasn't able. I'm somewhat new to reddit so if someone could tell me how, I'd be happy to share.
+
+I use what I know, combined with the Value & Momentum Breakouts subscription on SeekingAlpha  which primarily helps me know how bullish or bearish I should be at any given time based on author JD Henning's proprietary Momentum Gauge. This is extremely important when taking on large positions of 3x ETFs.
+
+If I can do it, so can you!",reddit:stocks
+LABU,2024-03-02 00:31:12+00:00,"Made it over the PTD bar LABU far OTM 1dte options mostly. 
+",reddit:wallstreetbets
+LABU,2023-08-10 21:29:03+00:00,Ticker scroll intern trolls NVDA bears... several reported dead. ER leaked?,reddit:wallstreetbets
+LABU,2023-04-23 14:21:14+00:00,"2023-04-24 Wrinkle Brain Plays - In the style of UwU ## Tickers of Interest - TL;DR
+
+**Gamma Max Cross**
+
+* [AAPL](https://halfonadouble.com/chart#AAPL) 05/19 160P for $2.55 or less
+* [LVS](https://halfonadouble.com/chart#LVS) 05/19 60P for $0.80 or less
+* [LABU](https://halfonadouble.com/chart#LABU) 05/19 5P for $0.15 or less
+* [GILD](https://halfonadouble.com/chart#GILD) 05/19 85P for $1.35 or less
+* [LOW](https://halfonadouble.com/chart#LOW) 05/19 210P for $4.50 or less
+
+
+**Delta Neutral Cross**
+
+* [TSLA](https://halfonadouble.com/chart#TSLA) 05/19 170C for $6.00 or less
+* [T](https://halfonadouble.com/chart#T) 05/19 19C for $0.10 or less
+* [ABNB](https://halfonadouble.com/chart#ABNB) 05/19 120C for $4.05 or less
+* [IQ](https://halfonadouble.com/chart#IQ) 05/19 7.5C for $0.10 or less 
+* [GPS](https://halfonadouble.com/chart#GPS) 05/19 9P for $0.30 or less
+
+## Twading Thesis - Why These Cwayons Yummy 🍬
+
+Technicaw anawysis and indiwator magic twends to use past $$ histowy to predict important pricey-wicey today. 🧐
+
+This anawysis is 🅱️ased on current option open interest (so fancy schmancy). Using those options, it calcuwates super cwl portfoliw-levew greeks—specialwy Dwelta and Gamma (oooh, shiny)! 🌟🌟 After figurin' out portfoliw-levew greeks, I can now simulate the changey in greeks (sneaky sneaky shifts) at different pricey points. Then, I can find the price points where portfoliw-levew gamma is the highest and portfoliw-levew dwelta is nearwy 0 🎯.
+
+For some tickews, the underwyin' stock price goes bouncy-bounce off delta neutwal, gamma max, or swoosh-both. 🎢
+
+It's the reaxion off of these pricey 🤑 points in the past that's driving those twading signals. 💡
+
+The pways and target entry prices are calculated wif a yummy binomiawl option pricin' modew (mq=.=q>). It reflects how big 🌝 and how long 😔 the reaxion from gamma max or dwelta neutwal might be. Many of these pways make bank 💰 when stocks move! Da bestest pways benefit from both directions uwu and the vwoomy increase in IV 🚀. 
+
+## Nwotes - Get Wready for Mind Wrinkles 🧠
+
+* If the pricewice zwooms past ⚡ entry price, hold your horses 🐎. Somefing changed 'twixt dem pways generation and market open. 🚦
+* Sell half your stuff 💼 on a double-up, an' free-roll da west to exit wheneva you fancy. ✨
+* I risk my 💰 up to 1% on any twades I take. Not feelin' too sure? Then I onwy use 0.5% or 0.25% and buy responsibly. 🤓
+* These twades were calculated before market open 🔔, so keep in mind dey're based on yesteryeawy's infowmation. 😬
+
+## FAQ - Cuz Vewwy Good Questions! ❓
+
+* Puts a lot, r u a gay bear? 🏳️‍🌈🐻
+    * Nope, just happen that de companies had some recent runny-wunny - could be overextended. These twades mostly follow a mean-reversion path. ✌️
+* Are you doing all these pways?
+    * Nah. I'm just makin' suggestions for gainny-wain porn. Go tru dis pawesome list, find da oneschu wike, back it up wif moar anawysis and get dem gainz! 💪🎯
+* New play--same tick? Wat dat mean?
+    * I'm sayin', dump da old, in wiff da nu! Don't be chasin' price, value ur money-honey! A new day has new, yummy data. 📈🤑
+* Crayons? 🖍️ ... WHERE?!?!
+    * Up there! ^^^^ Click, bam, wow! 🌠
+* Back-tested much?
+    * Heckie, yes. Modiwate Sharpe Ratio (1.76) and 63% winmin rate (7% wiggle room). 🏆
+* What about historwical borkformance? 📜
+   * We gotz realizwoed Sharpe Ratio 1.85 and winny rate 68%. It 95% wikelwy the wins gonna be 'twixt 63% and 75%. (Stats as of 2023-03-31) 🎉",reddit:wallstreetbets
+LABU,2022-02-08 02:38:50+00:00,"TRY THE NEW $METH ETF ITS GOOD 30% FB
+
+20% CHGG
+
+15% LABU
+
+15% QCOM
+
+10% CRM
+
+5% PYPL
+
+3% SNAP
+
+1% KO
+
+0.5% BAC
+
+0.3% HOOD
+
+0.1% UPS
+
+0.05% MA
+
+0.0025% V
+
+0.0025% FNGU
+
+YOUR VERY WELCOME
+
+Thanks for letting me out on the day of thanksgiving eve ESCORTS I have a few bucks for you to come visit me and I can help you connect with me your next next week Thursday or Monday thanks for your assistance thanks buddy merry Christmas merry Christmas buddy love ❤️ merry Christmas merry Christmas to lex and happy holidays to earth you have been doing great and I hope your days work good I hope you",reddit:wallstreetbets
+LABU,2021-12-14 19:21:58+00:00,"The trade that will make the most money at the beginning of this year $XBI LONG JAN 14 118 C XBI is a collection of biotech stocks.
+
+biotech stocks are mainly driven by M&A, as deals by larger companies re-appraise the valuations of these stocks and by discount rate. 
+
+XBI is down 35% from peak, a lot of it since November why, because of TAX LOSS HARVESTING.
+
+PPl have lost so much in this piece of shit that they are getting rid of it to offset capital gains in other things hence the pressure you see here. 
+
+When does tax loss selling end ? typically around 15 dec cf the nomura paper that just came out :  
+
+>Besides funds getting stopped-out out popular positions, there is also a spike in a substantial “Tax Loss” selling dynamic, where as McElligott notes, historically the peak of “tax loss selling” season is 11/1 through mid-Dec, as evidenced by the Wolfe “Potential Tax Loss Selling Basket” -13.9% over that period, underperforming SPX (+1.4% since 11/1) by 15.3%; underperforming QQQ (+1.6% since 11/1) by 15.5%; and underperforming IWM (-5.3% since 11/1) by 8.6% 
+
+XBI is at the lows and has ignored during this phase a slew of good news on the M&A front; PFE's latest acquisition at a 100% premium being the greatest example of how cheap the major pharmaceuticals think stocks in the field are right now. 
+
+Once the pressure ends, i suspect this thing will BOOM UP to 140 in short order
+
+**BUY JAN 14 C 118**
+
+OR BUY **LABU which is the 3x biotech etf**  
+I got 100k on this.",reddit:wallstreetbets
+LABU,2025-08-09 07:28:50+00:00,"Direxion Daily S&P Biotech Bull 3x Shares (NYSEARCA:LABU) Shares Up 0.5% – Still a Buy? Direxion Daily S&P Biotech Bull 3x Shares (NYSEARCA:LABU – Get Free Report) traded up 0.5% on Friday . The stock traded as high as $61.50 and last traded at $60.41. 1,276,614 shares traded hands during trading, a decline of 27% from the average session volume…",news:ETF Daily News
+LABU,2025-08-08 07:53:00+00:00,"Negri Sembilan water disruption from Aug 12 to affect Seremban, PD, Tampin, Kuala Pilah SEREMBAN: Several areas in Seremban, Port Dickson, Tampin, and Kuala Pilah will experience water supply disruption on Aug 12 at 8am and is expected to last until 8pm the following day, Aug 13. Read full story",news:The Star Online
+LABU,2025-08-06 14:09:39+00:00,Labu-who? Chopard Teams Up With Dimoo of Pop Mart for Qixi Exclusive The 288-piece collaboration available Friday spans three China-only versions of the Dimoo figurine sporting the jeweler's Ice Cube collection.,news:WWD
+LABU,2025-07-24 00:33:05+00:00,"A Look Around San Diego Just Before The 2025 Comic-Con Opens Thanks to Isabelle Carty, who sent in a bunch of photographs in and around San Diego Comic-Con 2025 for Bleeding Cool, from activation events to wraps around the big buildings, covering everything from Naked Gun to Demon Slayer, Fantastic Four to The Labu Tiq…",news:Bleeding Cool News
+LABU,2025-07-19 16:00:00+00:00,"A teacher who lives her motto JOSEPHINE Ong Kui Hua left St. Francis' Institution, Melaka, nearly 40 years ago, but one lesson she learnt there as a 19-year-old has carried her through thick and thin. Read full story",news:The Star Online

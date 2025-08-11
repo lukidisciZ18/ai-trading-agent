@@ -1,0 +1,4 @@
+symbol,strength,action,enhanced_strength,enhanced_action,confidence,entry_price,risk_plan,position_size,atr,meta
+ONDS,0.8080234108027669,BUY,0.6601727415179908,BUY,0.6601727415179908,3.549999952316284,"{'stop_loss': 3.266, 'take_profit_1': 4.26, 'trail_after_tp1': 0.08}",106.91103743227316,0.31178570645196096,{'filters': []}
+ALEC,0.9,BUY,0.815,BUY,0.815,2.1500000953674316,"{'stop_loss': 1.978, 'take_profit_1': 2.58, 'trail_after_tp1': 0.08}",198.2441258068888,0.16814285516738892,{'filters': []}
+UCL,0.892694227987731,HOLD,0.0,HOLD,0.0,3.5899999141693115,{},0.0,0.0,{'filters': ['min_dollar_vol']}
