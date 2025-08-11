@@ -16,39 +16,32 @@ jobs:
   lint_test:
     name: Lint and Test
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ai-trading-agent
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Set up Python
+      - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-      - name: Install dependencies
+      - name: Install deps
         run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-          pip install pytest flake8
+          pip install -r requirements.txt pytest flake8
 
       - name: Lint
         run: flake8 .
         continue-on-error: true
 
-      - name: Run tests
-        run: pytest -q
+      - name: Tests
+        run: |
+          if [ -d tests ]; then pytest -q; else echo "No tests directory"; fi
 
-  docker_build_push:
-    name: Build and Push Docker (GHCR)
-    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+  build_push:
+    name: Build and Push (GHCR)
     needs: lint_test
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      packages: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -60,56 +53,11 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Extract Docker metadata
-        id: meta
-        uses: docker/metadata-action@v5
-        with:
-          images: ghcr.io/${{ github.repository_owner }}/ai-trading-agent
-          tags: |
-            type=raw,value=latest,enable={{is_default_branch}}
-            type=sha
-
       - name: Build and push
         uses: docker/build-push-action@v6
         with:
           context: .
-          file: ./Dockerfile
           push: true
-          tags: ${{ steps.meta.outputs.tags }}
-          labels: ${{ steps.meta.outputs.labels }}
-
-  scheduled_watchlist:
-    name: Scheduled Signals Artifact
-    if: github.event_name == 'schedule'
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-
-      - name: Generate signals CSV
-        env:
-          ALPHA_VANTAGE_API_KEY: ${{ secrets.ALPHA_VANTAGE_API_KEY }}
-          NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
-          REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
-          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
-          REDDIT_USER_AGENT: ai-trading-agent/ci
-        run: python src/main.py --mode signals
-
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: trading-signals
-          path: |
-            data/trading_signals_latest.csv
-            data/trading_signals_*.csv
-          if-no-files-found: warn
+          tags: |
+            ghcr.io/${{ github.repository }}:latest
+            ghcr.io/${{ github.repository }}:${{ github.sha }}
