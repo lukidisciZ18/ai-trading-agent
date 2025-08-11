@@ -107,6 +107,27 @@ class AITradingAgent:
             return pd.DataFrame()
 
     def get_symbol_data(self, symbol: str, prefer_alpha: bool = False) -> pd.DataFrame:
+        # FAST_TEST mode: return deterministic synthetic OHLCV to avoid external calls in CI
+        if os.getenv("FAST_TEST") == "1":
+            import pandas as _pd
+            now = datetime.utcnow()
+            dates = _pd.date_range(end=now, periods=30, freq='D')
+            base = 100.0
+            closes = [base + (i * 0.1) for i in range(len(dates))]
+            opens = [c * 0.995 for c in closes]
+            highs = [c * 1.01 for c in closes]
+            lows = [c * 0.99 for c in closes]
+            vols = [100000 + i * 100 for i in range(len(dates))]
+            df = _pd.DataFrame({
+                'symbol': symbol,
+                'timestamp': dates,
+                'open': opens,
+                'high': highs,
+                'low': lows,
+                'close': closes,
+                'volume': vols,
+            })
+            return df
         # Try Alpha Vantage if requested and key available; fallback to yfinance even if Alpha returns empty
         if prefer_alpha and self.alpha_key and fetch_daily_ohlcv:
             try:
