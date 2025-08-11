@@ -6,7 +6,7 @@ on:
   pull_request:
   workflow_dispatch:
   schedule:
-    - cron: "0 * * * *" # hourly optional scheduled run
+    - cron: "0 * * * *"
 
 permissions:
   contents: read
@@ -18,15 +18,26 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      - name: Debug repo layout
+        run: |
+          pwd
+          ls -la
+          test -f requirements.txt || { echo "requirements.txt missing"; exit 1; }
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
       - name: Install deps
         run: |
+          python -V
           pip install -r requirements.txt
           pip install pytest flake8
+
       - name: Lint (non-blocking)
-        run: flake8 src || true
+        run: flake8 . || true
+
       - name: Tests (if present)
         run: |
           if [ -d tests ]; then
@@ -42,12 +53,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: docker/login-action@v3
+
+      - name: Log in to GHCR
+        uses: docker/login-action@v3
         with:
           registry: ghcr.io
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
-      - uses: docker/build-push-action@v6
+
+      - name: Build and push
+        uses: docker/build-push-action@v6
         with:
           context: .
           push: true
