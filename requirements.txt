@@ -10,5 +10,7 @@ lxml
 uvicorn
 fastapi
 httpx>=0.27,<0.28
-# optional ta-lib alternative
 pandas-ta
+apscheduler>=3.10,<3.11
+pandas-market-calendars>=4.4
+tenacity>=8.2

@@ -19,6 +19,8 @@ from signals.ta_triggers import generate_ta_triggers
 from fastapi import FastAPI, Query
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel
+from data.fundamentals import fetch_overview, fetch_earnings, recent_earnings_date
+from scheduler import build_scheduler, list_jobs
 
 # Optional Alpha Vantage
 try:
@@ -38,7 +40,7 @@ def _recent_texts_for_symbol(data_dir: Path, symbol: str, limit: int = 50) -> li
     except Exception:
         return []
 
-app = FastAPI(title="AI Trading Agent API", version="0.3")
+app = FastAPI(title="AI Trading Agent API", version="0.4")
 
 class SignalRequest(BaseModel):
     symbols: list[str] | None = None
@@ -55,6 +57,7 @@ class AITradingAgent:
         self.alpha_key = os.getenv("ALPHA_VANTAGE_API_KEY")
         # load config
         self.config = self._load_config()
+        self.scheduler = None
 
     def _load_config(self) -> dict:
         try:
@@ -278,12 +281,26 @@ class AITradingAgent:
             dfp = self.get_symbol_data(sym, prefer_alpha=True)
             sent = self.get_sentiment_score(sym)
             texts = _recent_texts_for_symbol(self.data_path, sym, limit=100)
-            # Placeholder sector and catalyst flags; in real impl, fetch sector and detect catalyst recency
-            sector = None
-            has_recent_bio_cat = True  # assume true unless sector says biotech and no catalyst keywords
+            fmeta = self.fundamentals_meta(sym)
+            sector = fmeta.get('sector')
+            last_earn = fmeta.get('last_earnings_date')
+            # earnings window filter (skip if within configured window)
+            earn_block = False
+            try:
+                wnd = int(self.config.get('earnings_window_days', 0))
+                if last_earn and wnd > 0:
+                    from datetime import datetime as _dt
+                    if (datetime.now() - _dt.fromisoformat(str(last_earn))).days <= wnd:
+                        earn_block = True
+            except Exception:
+                pass
+            has_recent_bio_cat = not earn_block  # placeholder logic
             base = score_smallcap_momentum(dfp, sentiment=sent, texts=texts)
-            # Filters
             ok, meta = self._apply_filters(sym, dfp, sector=sector, has_recent_biotech_catalyst=has_recent_bio_cat)
+            if earn_block:
+                meta.setdefault('filters', []).append('earnings_window')
+                ok = False
+            meta.update({k: v for k, v in fmeta.items() if k not in meta})
             if not ok:
                 entry = float(dfp['close'].tail(1).iloc[0]) if not dfp.empty else 0.0
                 rows.append({
@@ -336,7 +353,27 @@ class AITradingAgent:
         # default keeps backward-compatible simple signals for the 3 ETFs
         return self.leveraged_etf_signals(self.symbols)
 
+    def fundamentals_meta(self, symbol: str) -> dict:
+        meta: dict = {}
+        ov = fetch_overview(symbol)
+        er = fetch_earnings(symbol)
+        if ov:
+            meta['sector'] = ov.get('Sector') or ov.get('Industry')
+            meta['market_cap'] = ov.get('MarketCapitalization')
+        if er:
+            meta['last_earnings_date'] = recent_earnings_date(er)
+        return meta
+
 agent_singleton = AITradingAgent()
+
+@app.on_event("startup")
+async def on_start():
+    # start scheduler
+    agent_singleton.scheduler = build_scheduler(
+        scan_func=lambda mode: None,
+        sentiment_func=lambda: agent_singleton.ensure_fresh_sentiment(),
+    )
+    agent_singleton.scheduler.start()
 
 @app.get("/health")
 def health():
@@ -383,6 +420,12 @@ def rescan(body: SignalRequest):
         return JSONResponse(df.to_dict(orient='records'))
     except Exception as e:
         return JSONResponse({"error": str(e)}, status_code=500)
+
+@app.get("/schedule")
+def schedule():
+    if not agent_singleton.scheduler:
+        return {"jobs": []}
+    return {"jobs": list_jobs(agent_singleton.scheduler)}
 
 # CLI entry remains for container CMD --mode api by default in Docker
 if __name__ == "__main__":
