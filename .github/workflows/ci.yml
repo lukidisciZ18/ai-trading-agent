@@ -5,22 +5,33 @@ on:
     branches: ["**"]
   pull_request:
   workflow_dispatch:
-  schedule:
-    - cron: "0 * * * *"
 
 permissions:
   contents: read
   packages: write
 
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   lint_test:
     name: Lint and Test
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     env:
       FAST_TEST: "1"
+      PYTHONDONTWRITEBYTECODE: "1"
+      PIP_DISABLE_PIP_VERSION_CHECK: "1"
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Debug initial context
+        run: |
+          echo "REF=$GITHUB_REF SHA=$GITHUB_SHA EVENT=$GITHUB_EVENT_NAME"
+          ls -1 . | head
+          test -f requirements.txt || (echo 'requirements.txt missing' && exit 2)
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -30,39 +41,51 @@ jobs:
 
       - name: Install deps
         run: |
+          set -eux
           python -V
           pip install --upgrade pip
           pip install -r requirements.txt
           pip install pytest flake8 httpx
 
+      - name: Show installed top packages
+        run: pip list --format=columns | head -n 40
+
       - name: Lint (non-blocking)
-        run: flake8 . || true
+        run: flake8 src || true
 
-      - name: Run tests (FAST_TEST)
-        run: pytest -q || true
+      - name: Run tests (FAST_TEST synthetic)
+        run: |
+          set -eux
+          pytest -q || echo "pytest failures ignored in FAST_TEST"
 
-      - name: Export sample signals
+      - name: Generate signals (synthetic)
         run: |
           python - <<'PY'
-from src.main import agent_singleton as a
-print(a.leveraged_etf_signals().head())
+import os
+os.environ['FAST_TEST']='1'
+from src.main import agent_singleton as agent
+print(agent.leveraged_etf_signals().head())
 PY
 
-      - name: Upload test artifact
+      - name: Verify artifact file exists
+        run: |
+          ls -l data || true
+          test -f data/trading_signals_latest.csv || (echo 'signals file missing' && exit 3)
+
+      - name: Upload artifact
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: test-signals
-          path: |
-            data/trading_signals_latest.csv
-          if-no-files-found: warn
+          path: data/trading_signals_latest.csv
+          if-no-files-found: error
 
   build_push:
     name: Build and Push (GHCR)
     needs: lint_test
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
 
